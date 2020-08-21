@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*
+{box-sizing:border-box;margin: 0;padding:0;
+  }
+  body{
+    background-color: rgb(172, 161, 240);
+  }
+header
+{padding:30px;
+
+  background-color: white;
+  }
+
+h1{text-align: center;
+
+color: rgb(184, 194, 12);font-family: 'Indie Flower', cursive;
+}
+.score-board
+{
+width:200px;
+  margin:20px auto;
+padding:15px 20px;
+  text-align:center;
+  color:rgb(22, 11, 235);
+border:3px solid white;
+border-radius: 4px;
+  font-size:40px;
+  position:relative;
+  }
+
+.badge
+{
+  padding:4% 10%;
+color:white;
+  background-color: rgb(79, 23, 6);
+  font-size:40%;
+  }
+#user-label{
+color:blue;
+top:30px;
+left:-25px;
+position:absolute;
+  }
+  #comp-label{
+    color: blue;
+    top:30px;
+    position:absolute;
+    right:-25px;
+
+  }
+.result
+{
+  font-size:40px;
+  text-align: center;
+  font-weight: bold;
+}
+.choices{
+  text-align: center;
+  margin:50px 0px;
+
+}
+.choice
+{
+  border: 10px solid blue;
+  display: inline-block;
+  border-radius: 50%;
+  padding:40px;
+  margin:20px;
+  transition:all 1s ease;
+
+}
+
+.choice:hover{
+  background-color: rgb(59, 41, 68);
+  cursor: pointer;
+}
+#action-message
+{
+  text-align: center;
+  font-size: 50px;
+  color:rgb(250, 54, 178);
+  font-weight: bolder;
+}
+
+23
